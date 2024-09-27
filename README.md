@@ -36,7 +36,7 @@ El servidor `Ubuntu` utilizá los siguientes parámetros de configuración de re
 
 ### Ajustes de los parámetros de red Ubuntu Server
 
-```bash
+```ruby
 nano /etc/netplan/50-cloud-init.yaml
 
 network:
