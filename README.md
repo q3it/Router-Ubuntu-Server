@@ -48,7 +48,7 @@ network:
     version: 2
 ```
 
-```bash
+```ruby
 nano /etc/sysctl.conf
 
 # /etc/sysctl.conf - Configuration file for setting system variables
@@ -65,7 +65,7 @@ Los ficheros de configuración de red de `Ubuntu Server` cuelgan del directorio 
 
 1. Editar fichero de red.
 
-```bash
+```ruby
 nano /etc/netplan/50-cloud-init.yaml
 
 network:
@@ -81,7 +81,7 @@ network:
 
 2. Permitir el redireccionamiento.
 
-```bash
+```ruby
 nano /etc/sysctl.conf
 
 # /etc/sysctl.conf - Configuration file for setting system variables
@@ -94,13 +94,13 @@ nano /etc/sysctl.conf
 
 - Para aplicar los cambios de redireccionamiento ejecutamos en consola...
 
-```bash
+```ruby
 sysctl -p /etc/sysctl.conf
 ```
 
 - Comprobamos en consola...
 
-```bash
+```ruby
 cat /proc/sys/net/ipv4/ip_forward
 ```
 
@@ -108,19 +108,19 @@ cat /proc/sys/net/ipv4/ip_forward
 
 - Normalmente estas reglas están en ACCEPT.
 
-```bash
+```ruby
 iptables -L
 ```
 
 - Vemos la tabla nat, y si está vacia creamos la regla.
 
-```bash
+```ruby
 iptables -L -nv -t nat
 ```
 
 - Creamos la regla `postrouting`
 
-```bash
+```ruby
 iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE
 ```
 
@@ -128,13 +128,13 @@ iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE
 
 - Desde la máquina `Debian` lanzamos un ping.
 
-```bash
+```ruby
 ping 8.8.8.8
 ping google.com
 ```
 - Consultamos nuevamente la tabla nat.
 
-```bash
+```ruby
 iptables -L -nv -t nat
 ```
 
@@ -142,13 +142,13 @@ iptables -L -nv -t nat
 
 - Para que no se pierdan los cambios hechos en `iptables` una vez reiniciado el servidor instalamos la siguiente herramienta.
 
-```bash
+```ruby
 apt install iptables-persistent
 ```
 
 - Salvamos los cambios ejecutando en consola...
 
-```bash
+```ruby
 netfilter-persistent save
 ```
 
