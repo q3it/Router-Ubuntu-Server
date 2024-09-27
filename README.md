@@ -12,9 +12,11 @@ En las [referencias](#referencias), encontrará enlaces a sitios de `Internet` q
 
 ## Escenario
 
-Se crearán dos máquinas virtuales: Una con Ubuntu server que nos servirá como router linux y, otra con Debian que será el cliente. En el diagrama de red tendrémos una idea de como se van a comunicar las máquinas.
+<p align="center">
+<img src="./Screenshot11.png">
+</p>
 
-[Diagrama](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5lHo3wfqxpZ7x-vLsSxZXLdGUrC1tn9vZIQbzZGhyphenhyphenqgnIBm06_421XHksLqP_gwEiL6oM2LUiGQJj7eD6QFw2uSQIH5lrURdDOSalvgYdnzd6w7C44ITZUkVTkPptBE6f4HNOpzm4N2csDSP2XrzI0SMvECcrbgJ3YHNB14mLB1PfKNof9TE4iO2N-_g/s1385/Screenshot11.png)
+Se crearán dos máquinas virtuales: Una con Ubuntu server que nos servirá como router linux y, otra con Debian que será el cliente. En el diagrama de red tendrémos una idea de como se van a comunicar las máquinas.
 
 Debian estará en una red interna que se conectará a Ubuntu Server y para ello Debian tendrá un adaptador de red sin conexión a internet. Ubuntu Server por su lado se le configurará un adaptador como red interna y otro que hará de router para tener acceso a internet.
 
