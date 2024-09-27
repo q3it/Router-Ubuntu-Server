@@ -1,0 +1,13 @@
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# Adaptador ens160 estatico
+auto ens160
+iface ens160 inet static
+    address 192.168.277.134
+    netmask 255.255.255.0
+    network 192.168.277.0
+    broadcast 192.168.277.255
+    gateway 192.168.227.133
+    dns-nameservers 8.8.8.8
