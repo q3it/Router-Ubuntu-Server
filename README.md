@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Es posible que no seas consciente de que tu máquina Ubuntu puede ser algo más que una computadora personal; también puede funcionar como un potente `router`. Ya sea que necesite compartir una conexión a Internet, gestionar el tráfico entre diferentes redes o implementar funciones avanzadas de enrutado. Antes de que entremos en la configuración, vamos a entender brevemente el enrutado. El `Routing` es el proceso de dirigir el tráfico de la red entre diferentes redes o subredes. Un `router` es un dispositivo que conecta múltiples redes y rutas de datos entre ellas. Su máquina Ubuntu puede servir como router aprovechando sus interfaces de red y configurando tablas de rutas.
+Es posible que no seas consciente de que tu máquina Ubuntu puede ser algo más que una computadora personal, también puede funcionar como un potente `router`. Ya sea que necesite compartir una conexión a Internet, gestionar el tráfico entre diferentes redes o implementar funciones avanzadas de enrutado. Antes de que entremos en la configuración, vamos a entender brevemente el enrutado. El `Routing` es el proceso de dirigir el tráfico de la red entre diferentes redes o subredes. Un `router` es un dispositivo que conecta múltiples redes y rutas de datos entre ellas. Su máquina Ubuntu puede servir como router aprovechando sus interfaces de red y configurando tablas de rutas.
 
 En las [referencias](#referencias), encontrará enlaces a sitios de `Internet` que pueden ayudar.
 
