@@ -25,7 +25,7 @@ Debian estará en una red interna que se conectará a Ubuntu Server y para ello 
 El servidor `Ubuntu` utilizá los siguientes parámetros de configuración de red:
 
 * Dirección `IP` del servidor con conexión wan: `192.168.210.145`
-* Dirección `IP` del servidor con conexión lan: `192.168.277.134`
+* Dirección `IP` del servidor con conexión lan: `192.168.277.133`
 * Puerta de enlace del servidor: `192.168.277.1`
 * Red interna: `192.168.277.0/24`
 * Red externa: `192.168.210.0/24`
