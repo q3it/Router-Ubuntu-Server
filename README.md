@@ -32,7 +32,9 @@ El servidor `Ubuntu` utilizá los siguientes parámetros de configuración de re
 
 ### Ajustes de los parámetros de red Debian
 
-[Debian](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTqECpqbbyS1RKFglOBmRjqbWk5ezZwjN66GNOBcbunTNNUmmxDECOeU-VoJCQDHO2I7-ZpVOBaqi7LJAJbCnpuTWT7uQ3Yc-GCdwu38oetqohQSdBBGQV7Z2RD8ItLYKpRoeDUBtSAPWWZXb1kwu2xoFxKKh3FsVyg5dswMTECNw7Akh3ITgOIyN4wRs/s795/Selecci%C3%B3n_001.png)
+<p align="center">
+<img src="/img/DebianRed.png">
+</p>
 
 ### Ajustes de los parámetros de red Ubuntu Server
 
