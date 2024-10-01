@@ -13,7 +13,7 @@ En las [referencias](#referencias), encontrará enlaces a sitios de `Internet` q
 ## Escenario
 
 <p align="center">
-<img src="/img/screenshut.png">
+<img src="/img/Screenshut.png">
 </p>
 
 Se crearán dos máquinas virtuales: Una con Ubuntu server que nos servirá como router linux y, otra con Debian que será el cliente. En el diagrama de red tendrémos una idea de como se van a comunicar las máquinas.
